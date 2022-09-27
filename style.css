@@ -1,0 +1,329 @@
+@font-face {
+	font-family: gobold;
+	src: url(fonts/gobold_thin-webfont.woff);
+}
+
+@font-face {
+	font-family: malgun;
+	src: url(fonts/malgun.ttf);
+}
+
+body {
+	font-family: "malgun";
+	font-size: 13px;
+}
+
+figure {
+	display: flex;
+	margin: 0;
+}
+
+button {
+	display: inline-block;
+	padding: 12px 20px;
+	border: 0;
+	border-radius: 30px;
+	background-color: #e6007e;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.button2 {
+	display: inline-block;
+	padding: 12px 20px;
+	border: 0;
+	border-radius: 30px;
+	background-color: #ffffff;
+	color:#e6007e;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.NavBar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: black;
+	vertical-align: middle;
+	height: 30px;
+	padding: 20px;
+}
+
+.NavBar-Item {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.Img-Baniere {
+	width: 100%;
+}
+
+.fa-stack {
+	padding: 2px 7px;
+	border-radius: 3px;
+}
+
+.vertical {
+	padding:0 30px;
+	border-right:solid;
+	border-right-color:#ebebeb ;
+	border-width: 3px ;
+}
+
+.MainContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 200px;
+	border-right-color: #ebebeb;
+}
+
+.ContainerRight {
+	width: 60%;
+	padding-right: 70px;
+	border-right: solid;
+	border-right-color:#ebebeb ;
+	border-width: 3px ;
+}
+
+.Card-Event {
+	border: solid;
+	border-color: #ebebeb;
+	border-left-width : 5px;
+	border-left-color: #002b6c;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+}
+
+.Card-Title {
+   font-size: 18px;
+   font-weight: bold;
+   color: #002b6c ;
+}
+
+#global {
+	overflow:auto;
+ }
+
+ li {
+	margin-bottom : 12px;
+ }
+ 
+ .li-title {
+	font-weight: bold;
+	color: #002b6c;
+	margin: 0;
+ }
+
+ .li-subtitle {
+	font-style: italic;
+ }
+ 
+ #gauche {
+	float:left;
+	width:50%;
+ }
+
+ #droite {
+	overflow:auto;
+ }
+
+.CardSubtitle {
+	font-size: 14px;
+	font-weight: bold;
+	color: #002b6c;
+}
+
+.Etiquette {
+	background-color: #002b6c;
+	color: white;
+	font-size: 12px;
+	padding : 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.Card-Img {
+	margin: 15px 0;
+	width: 100%;
+}
+
+.CardParagraphe--Secondary {
+	font-weight: bold;
+}
+
+.CardParagraphe {
+	margin-bottom: 25px;
+}
+
+.CardParagraphe-Color {
+	color:#e6007e;
+}
+
+.ListTags {
+	display: flex;
+	font-weight: bold;
+}
+
+.Tags {
+	color: #e6007e;
+	font-style: italic;
+}
+
+.Para-Img{
+	border-radius: 5px;
+	margin: 30px 0;
+	width: 100%;
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+	top:0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+
+.absolutetxt {
+	width: 50%;
+	line-height: 1.3;
+}
+
+.img3 {
+	width: 20%;
+}
+
+.img4 {
+	margin-bottom: 20px;
+}
+
+.ContainerLeft {
+	width: 20%;
+	padding-left: 70px;
+}
+
+.titleright {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.Card-Event--Secondary {
+	border-left-color: #7270f1;
+}
+
+.Card-Event--Tertiary {
+	border-left-color: #7b290e;
+}
+
+.month {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px;
+}
+
+.Etiquette--1 {
+	background-color: #649ef5;
+}
+
+.Etiquette--2 {
+	background-color: #3280f4;
+}
+
+.Etiquette--3 {
+	background-color: #1d1794;
+}
+
+.Etiquette--4 {
+	background-color: #2b4977;
+}
+
+.Etiquette--5 {
+	background-color: #227887;
+}
+
+.Etiquette--6 {
+	background-color: #761639;
+}
+
+.Etiquette--7 {
+	background-color: #f683dd;
+}
+
+.Etiquette--8 {
+	background-color: #6e335b;
+}
+
+footer {
+	background-color: #26272b;
+	color: white;
+
+}
+
+.Footer-Top {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+	border-bottom: solid;
+	border-bottom-color: #3d3e45;
+}
+
+.Footer-Top-Left {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	align-items: center;
+}
+
+.Items-Left {
+	margin: 0 20px;
+}
+
+.Footer-Top-Right {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 20px;
+	align-items: center;
+	border-left: solid;
+	border-left-color: #3d3e45;
+}
+
+.Footer-Bottom {
+	display: flex;
+	justify-content: center;
+	padding: 5px 0;
+}
+
+.Footer-Bottom-Left {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	align-items: center;
+	border-right: solid;
+	border-right-color: #3d3e45;
+}
+
+.Footer-Bottom-Right {
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 20px;
+	align-items: center;
+}
+
+.Item-Right {
+	margin : 10px;
+}

@@ -1,0 +1,59 @@
+,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+p,
+ul,
+ol {
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: rgb(32, 98, 197);
+  text-decoration: none;
+  display: block;
+}
+
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img,
+video {
+  height: auto;
+}
+
+html {
+  font-size: 125%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2;
+    margin: 0;
+  }
