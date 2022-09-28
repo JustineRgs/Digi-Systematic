@@ -10,12 +10,14 @@
 		<title>Systematic</title>
 	</head>
 	<body>
-		<header class="NavBar">
-			<img src="images/label_systematic.png" alt="Logo Systematic" />
+<!-- Debut NavBar -->
+	<header class="NavBar">
+
+		<img src="images/label_systematic.png" alt="Logo Systematic" />
 
 			<div class="NavBar-Item">
-				<i class="fa-solid fa-bars fa-2x vertical"></i>
-				<div class="vertical">
+				<i class="fa-solid fa-bars fa-2x Item-Container"></i>
+				<div class="Item-Container">
 					<span class="fa-stack" name="twitter">
 						<span style="color: #e6007e"><i class="fa-solid fa-circle fa-stack-2x"></i></span>
 						<i class="fa-brands fa-twitter fa-inverse fa-stack-1x"></i>
@@ -33,16 +35,20 @@
 						<i class="fa-sharp fa-solid fa-rss fa-inverse fa-stack-1x"></i>
 					</span>
 				</div>
-				<span class="vertical"><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+				<span class="Item-Container"><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
 
-				<span class="vertical"> <button type="button">ADHÉRER AU PÔLE</button><br/></span>
+				<span class="Item-Container"> <button type="button">ADHÉRER AU PÔLE</button><br/></span>
 			</div>
-		</header>
+	</header>
+
+<!-- Fin NavBar -->
 
 		<img class="Img-Baniere" src="images/banniere.jpg" alt="bannière" />
 
-		<main class="MainContainer">
-			<div class="ContainerRight">
+<!-- Début du Container-Left -->
+
+	<main class="MainContainer">
+			<div class="Container-Left">
 				<div class="Card-Event">
 					<h2 class="Card-Title">Nom de l'événement</h2>
 
@@ -69,38 +75,38 @@
 					</div>
 				</div>
 
-				<h3 class="CardSubtitle">HUBS & ENJEUX :</h3>
+				<h3 class="Card-Subtitle">HUBS & ENJEUX :</h3>
 
-				<span class="Etiquette">Optics & Photonics</span>
+				<span class="Label">Optics & Photonics</span>
 				<br>
-				<hr />
+				<hr/>
 				<img class="Card-Img" src="images/Image_event.png" />
-				<p class="CardParagraphe CardParagraphe--Secondary">
+				<p class="Card-Paragraphe Card-Paragraphe--Secondary">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse perspiciatis, quas beatae perferendis corrupti corporis suscipit
 					voluptatibus, ab sit delectus blanditiis. Dicta enim iusto corrupti aspernatur mollitia quam facilis impedit.
 				</p>
-				<p class="CardParagraphe">
+				<p class="Card-Paragraphe">
 					Lorem ipsum dolor sit, <b>amet consectetur adipisicing elit.</b> Eligendi omnis fugit nemo id necessitatibus, culpa deserunt
 					laboriosam atque cupiditate repudiandae repellendus a sed ea mollitia magnam? Sequi illum asperiores quae sit animi quia, modi
 					ipsam ut corporis porro. <b>Provident</b> minima maiores ipsum deleniti itaque quam quis dignissimos cupiditate nam tempora quae
 					ut, harum voluptatem quidem nostrum enim sed, temporibus dolorem architecto nisi fuga quo! Quam eveniet labore, delectus itaque
 					accusamus exercitationem fuga optio quidem rem non dicta? Quam repellendus,
-					<span class="CardParagraphe-Color">aut tenetur commodi</span> suscipit quia tempora eligendi eos ipsam, nam distinctio mollitia
+					<span class="Card-Paragraphe-Color">aut tenetur commodi</span> suscipit quia tempora eligendi eos ipsam, nam distinctio mollitia
 					delectus accusantium? Repellat voluptas tempora cum fugit nam.
 				</p>
-				<hr />
+				<hr/>
 
-				<span class="ListTags"
+				<span class="Tags-List"
 					>Tags : <a href="" class="Tags">Intelligence artificiel </a>, <a href="" class="Tags">Innovation</a>,
-					<a href="" class="Tags">Investissement</a></span
-				>
+					<a href="" class="Tags">Investissement</a>
+				</span>
 
-				<div class="Para-Img">
+				<div class="Img-Background">
 					<img src="images/Fond_rose.png" />
 
-					<div class="absolute">
-						<img class="img3" src="images/inscription_ billeterie.png" />
-						<div class="absolutetxt">
+					<div class="Global-Absolute">
+						<img class="Img-Absolute" src="images/inscription_ billeterie.png" />
+						<div class="Txt-Absolute">
 							<h2><b>INSCRIPTION</b></h2>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores itaque?</p>
 							<button class="button2">JE M'INSCRIS</button>
@@ -108,14 +114,18 @@
 					</div>
 				</div>
 
-				<img class="img4" src="images/map.png" />
+				<img class="Img-Map" src="images/map.png" />
 				<hr />
 				<p><b>PARTAGER :</b> <img src="images/Icones_social.png" /></p>
 			</div>
 
-			<div class="ContenairLeft">
-				<div id="sidebar">
-					<div class="titleright">
+<!-- Fin du Container-Left -->
+
+<!-- Début du Container-Right -->
+
+			<div class="Container-Right">
+				<div>
+					<div class="Card-Title-Right">
 						<span class="fa-stack fa-xs" name="chip">
 							<span style="color: #e6007e"><i class="fa-solid fa-circle fa-stack-1x fa-xs"></i></span>
 							<span style="color: #39a0c2"><i class="fa-regular fa-circle fa-stack-2x"></i></span>
@@ -123,7 +133,7 @@
 						<h3 class="Card-Title">Événements à venir</h3>
 					</div>
 						<hr />
-					<div class="month">
+					<div class="Card-Subtitle-Right">
 						<p class="Card-Title">Janvier 2020</p>
 						<img src="images/mois.png" />
 					</div>
@@ -147,32 +157,40 @@
 						<p class="li-title">Nom de l'événement</p>
 						<span class="li-title">Date :</span> 22 Janvier 2020 - 24 janvier 2020
 					</div>
-					<div class="titleright">
+					<div class="Card-Title-Right">
 						<span class="fa-stack fa-xs" name="chip">
 							<span style="color: #e6007e"><i class="fa-solid fa-circle fa-stack-1x fa-xs"></i></span>
 							<span style="color: #39a0c2"><i class="fa-regular fa-circle fa-stack-2x"></i></span>
 						</span>
 						<h3 class="Card-Title">Hubs & Enjeux</h3>
 					</div>
+
 					<hr />
-					<p><span class="Etiquette Etiquette--1">Data Science & AI</span></p>
-					<p><span class="Etiquette Etiquette--2">Cyber & security</span></p>
-					<p><span class="Etiquette Etiquette--3">Digital Engineering</</p>span>
-					<p><span class="Etiquette Etiquette--4">Digital Infrastructure & IOT</span></p>
-					<p><span class="Etiquette">Optics & Photonics</span>
-					<p><span class="Etiquette Etiquette--5">Open Source</span>
-					<p><span class="Etiquette Etiquette--6">Territoires</span></p>
-					<p><span class="Etiquette Etiquette--7">Société</span></p>
-					<p><span class="Etiquette Etiquette--8">Industrie & Services</span></p>
+
+					<p><span class="Label Label--1">Data Science & AI</span></p>
+					<p><span class="Label Label--2">Cyber & security</span></p>
+					<p><span class="Label Label--3">Digital Engineering</</p>span>
+					<p><span class="Label Label--4">Digital Infrastructure & IOT</span></p>
+					<p><span class="Label">Optics & Photonics</span>
+					<p><span class="Label Label--5">Open Source</span>
+					<p><span class="Label Label--6">Territoires</span></p>
+					<p><span class="Label Label--7">Société</span></p>
+					<p><span class="Label Label--8">Industrie & Services</span></p>
 				</div>
 			</div>
-		</main>
-		<footer>
+
+<!-- Fin du Container-Right -->
+
+	</main>
+	<footer>
 		<div class="Footer-Global">
+
+<!-- Début Footer-Top -->
+
 				<div class="Footer-Top">					
 					<div class="Footer-Top-Left">
 						<label class="Items-Left" for="emailAdress">Newsletter <br><b>SYSTEMATIC</b></label>
-						<input class="Item-Left2" type="email" id="emailAdress" name="emailAdress" placeholder="sophie@exemple.com" />
+						<input type="email" id="emailAdress" name="emailAdress" placeholder="sophie@exemple.com" />
 						<button class="Items-Left" type="submit">JE M'INSCRIS</button>
 					</div>
 
@@ -198,11 +216,15 @@
 						</div>
 					</div>
 				</div>
-		
+
+<!-- Fin Footer-top -->
+
+<!-- Debut Footer-bot -->
+
 				<div class="Footer-Bottom">
 					<div class="Footer-Bottom-Left">
-						<a href="#">SYSTEMATIC 2020.</a> <p>Création</p>
-						<a href="#"> Agence Peach</a>
+						<a class="Items-Left2" href="#">SYSTEMATIC 2020.</a> <p class="Items-Left2">Création</p>
+						<a class="Items-Left2" href="#"> Agence Peach</a>
 					</div>
 
 					<div class="Footer-Bottom-Right">
@@ -212,10 +234,18 @@
 						<p class="Item-Right">Mentions légales</p>
 					</div>
 				</div>
+
+<!-- Fin footer-bot -->
+
 		</div>
 
-				<!-- <div class="item-full-right" name="rss"
-				style="color: #e6007e"> <i class="fa-solid fa-square fa-stack-2x"></i><i class="fa-solid fa-chevron-up fa-inverse fa-stack-1x"></i></div> -->
-		</footer>
+<!-- Debut item pour revenir en haut de page -->
+
+		<div class="Item-HDP" name="rss"
+		style="color: #e6007e"> <i class="fa-solid fa-square fa-stack-2x"></i><i class="fa-solid fa-chevron-up fa-inverse fa-stack-1x"></i></div>
+
+		<!-- Fin item pour revenir en haut de page -->
+		
+	</footer>
 </body>
 </html>
