@@ -18,25 +18,14 @@ figure {
 	margin: 0;
 }
 
-button {
+.button {
 	display: inline-block;
 	padding: 12px 20px;
+	margin: 0 30px;
 	border: 0;
 	border-radius: 30px;
 	background-color: #e6007e;
 	color: white;
-	text-align: center;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-.button2 {
-	display: inline-block;
-	padding: 12px 20px;
-	border: 0;
-	border-radius: 30px;
-	background-color: #ffffff;
-	color:#e6007e;
 	text-align: center;
 	font-size: 12px;
 	font-weight: bold;
